@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初中几何交互式课程 - math.simawt.cn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #6366f1; --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%); --card-bg: rgba(255, 255, 255, 0.05); --text-main: #f8fafc; --text-dim: #94a3b8; }
+        body { font-family: Outfit, "Noto Sans SC", sans-serif; background: var(--bg-gradient); color: var(--text-main); min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 2rem 1rem; margin: 0; }
+        h1 { font-size: 2.5rem; margin-bottom: 3rem; background: linear-gradient(to right, #818cf8, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; text-align: center; }
+        .course-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; width: 100%; max-width: 1200px; }
+        .course-card { background: var(--card-bg); border-radius: 16px; padding: 1.5rem; text-decoration: none; color: inherit; transition: 0.3s; border: 1px solid rgba(255,255,255,0.1); }
+        .course-card:hover { transform: translateY(-5px); background: rgba(255,255,255,0.1); border-color: #818cf8; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        h2 { font-size: 1.3rem; margin-bottom: 0.5rem; color: #818cf8; margin-top: 0; }
+        p { color: var(--text-dim); font-size: 0.95rem; margin-bottom: 0; line-height: 1.5; }
+    </style>
+</head>
+<body>
+    <h1>数学交互课程实验室</h1>
+    <main class="course-grid">
+        <a href="/AreaMin/" class="course-card"><h2>面积最小值问题</h2><p>研究定长线段动点形成的图形面积最值。</p></a>
+        <a href="/cyclic-quad-areadiff/" class="course-card"><h2>圆内接四边形：面积差</h2><p>探索圆内接四边形面积变化的规律。</p></a>
+        <a href="/Cyclic_Quad_RightAngle/" class="course-card"><h2>圆内接四边形：直角模型</h2><p>专注于直角圆内接四边形的特殊性质。</p></a>
+        <a href="/Equidiagonal_Theory/" class="course-card"><h2>等对角线理论</h2><p>深度剖析等对角线四边形的性质。</p></a>
+        <a href="/fixed-angle-theory/" class="course-card"><h2>定角理论</h2><p>研究定角对弦长、弧长及面积的影响。</p></a>
+        <a href="/HandInHand/" class="course-card"><h2>手拉手模型</h2><p>经典的几何全等变换模型。</p></a>
+        <a href="/MaxArea/" class="course-card"><h2>最大面积问题</h2><p>探寻封闭图形面积最大化的边界条件。</p></a>
+        <a href="/MaxDiff/" class="course-card"><h2>最大差值问题</h2><p>研究线段差的最值情况。</p></a>
+        <a href="/ThreePerp_Theory/" class="course-card"><h2>一线三垂直理论</h2><p>掌握全等三角形的核心构造法。</p></a>
+        <a href="/Rhombus_Max_Area/" class="course-card"><h2>菱形面积最值</h2><p>运用轴对称与折线最值解决菱形动点面积。 </p></a>
+        <a href="/MidpointRoc/" class="course-card"><h2>中点旋转最值</h2><p>等腰直角三角形旋转模型的二次动点追逐。</p></a>
+        <a href="/HandInHand-basic/" class="course-card"><h2>“手拉手”基础</h2><p>掌握旋转相似中最基础、最核心的等腰三角形模型。</p></a>
+    </main>
+</body>
+</html>
